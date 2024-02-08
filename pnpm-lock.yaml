@@ -521,14 +521,14 @@ importers:
         version: link:../core
     devDependencies:
       '@triplit/cli':
-        specifier: ^0.3.22
-        version: 0.3.22(react-router@6.21.1)
+        specifier: ^0.3.23
+        version: 0.3.23(react-router@6.21.1)
       '@triplit/client':
-        specifier: ^0.3.17
-        version: 0.3.17(react@18.2.0)
+        specifier: ^0.3.18
+        version: 0.3.18(react@18.2.0)
       '@triplit/db':
-        specifier: ^0.3.14
-        version: 0.3.14(react@18.2.0)
+        specifier: ^0.3.15
+        version: 0.3.15(react@18.2.0)
 
   packages/adapter-typeorm:
     dependencies:
@@ -12177,17 +12177,17 @@ packages:
     dev: true
     optional: true
 
-  /@triplit/cli@0.3.22(react-router@6.21.1):
-    resolution: {integrity: sha512-22Qqhizxe3nd/Fiucd3/K7kOOcl+TaN+73bYYinOYHQGSpioBYJOIFDWZYlxmuG1D/hScNyvm6R/OlNzM901Kg==}
+  /@triplit/cli@0.3.23(react-router@6.21.1):
+    resolution: {integrity: sha512-wTGRyA0gVFzBOBjNYTFxEPfV115YDosDUztLWFVn40WxHdPOXhX00ARJN0hlBl1RQgJkWj/J1vHLwiOojsbU8A==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     dependencies:
       '@supabase/supabase-js': 2.39.3
-      '@triplit/client': 0.3.17(react@18.2.0)
-      '@triplit/console': 0.3.20(react-router@6.21.1)
-      '@triplit/db': 0.3.14(react@18.2.0)
-      '@triplit/server': 0.3.17(react@18.2.0)
-      '@triplit/server-core': 0.3.17(react@18.2.0)
+      '@triplit/client': 0.3.18(react@18.2.0)
+      '@triplit/console': 0.3.21(react-router@6.21.1)
+      '@triplit/db': 0.3.15(react@18.2.0)
+      '@triplit/server': 0.3.18(react@18.2.0)
+      '@triplit/server-core': 0.3.18(react@18.2.0)
       ansis: 1.5.6
       axios: 1.6.5
       better-sqlite3: 8.6.0
@@ -12219,19 +12219,19 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@triplit/client@0.3.17(react@18.2.0):
-    resolution: {integrity: sha512-kF/gt+YYFeOM00G6G433+/H45O9fAGQS7jmbnMK+pySZLAa0kFRXY+Hdk9nY83oGt/I/BxCe6s1BIQf74VZP0w==}
+  /@triplit/client@0.3.18(react@18.2.0):
+    resolution: {integrity: sha512-ApRRDUEI0vv081a/yK/VUmyfdn7IWonux9n2IYnHMNij+ZFykn4F9/hev8QQJ2CzX8hBlW6hDQXZs8rjQLUolw==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@sinclair/typebox': 0.27.8
-      '@triplit/db': 0.3.14(react@18.2.0)
+      '@triplit/db': 0.3.15(react@18.2.0)
       rxjs: 7.8.1
     transitivePeerDependencies:
       - react
     dev: true
 
-  /@triplit/console@0.3.20(react-router@6.21.1):
-    resolution: {integrity: sha512-lWZ0ahZupICVaGTCKCU/XRL5TFrE8b9790ettmmAbKvO9Uitwd/XNXRglLCjcYxXQQC6ZOAn1VulcmlwgGFowA==}
+  /@triplit/console@0.3.21(react-router@6.21.1):
+    resolution: {integrity: sha512-CjrAg3Jv562ZeRXxc6wY+gXkgxnDO/KL2lnNVEFL6zGciliXH0yGWz4sTBbiC0ZBjMtMc1UG0lPtkfL8Kv0uIw==}
     dependencies:
       '@ahooksjs/use-url-state': 3.5.1(react-router@6.21.1)(react@18.2.0)
       '@emotion/react': 11.11.3(react@18.2.0)
@@ -12240,10 +12240,10 @@ packages:
       '@mantine/hooks': 6.0.21(react@18.2.0)
       '@phosphor-icons/react': 2.0.15(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/react-table': 8.11.3(react-dom@18.2.0)(react@18.2.0)
-      '@triplit/client': 0.3.17(react@18.2.0)
-      '@triplit/db': 0.3.14(react@18.2.0)
-      '@triplit/react': 0.3.17(react-dom@18.2.0)(react@18.2.0)
-      '@triplit/server-core': 0.3.17(react@18.2.0)
+      '@triplit/client': 0.3.18(react@18.2.0)
+      '@triplit/db': 0.3.15(react@18.2.0)
+      '@triplit/react': 0.3.18(react-dom@18.2.0)(react@18.2.0)
+      '@triplit/server-core': 0.3.18(react@18.2.0)
       class-variance-authority: 0.7.0
       dayjs: 1.11.10
       jotai: 2.6.1(react@18.2.0)
@@ -12266,8 +12266,8 @@ packages:
       - tailwindcss
     dev: true
 
-  /@triplit/db@0.3.14(react@18.2.0):
-    resolution: {integrity: sha512-vmlbsj6GJ82ajCPuT7BeVTGF4JXqTO9Z36Ft0D3RohMkoVQe6SVfQ9Ap6SvibMsDWJWeVGAqvfM8SX6/DiGnOw==}
+  /@triplit/db@0.3.15(react@18.2.0):
+    resolution: {integrity: sha512-Hz3YHv1MK4sopZjHepqQUgkN2vCR0F6vYAKUBZiS18mCwAXzdp+UrtD1l2kiHJNQYwp3TnL91XiVQafr6ogGwA==}
     dependencies:
       '@sinclair/typebox': 0.27.8
       '@triplit/tuple-database': 2.2.10(react@18.2.0)
@@ -12279,31 +12279,31 @@ packages:
       - react
     dev: true
 
-  /@triplit/react@0.3.17(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-8FnrLmt4T6JIKlZCskK7eVKtheBOej4qgMlYqd3uAa1njHiXkVxBeh65yA8LFDXVNwrdPxJeh1jiYhTXCtwTDw==}
+  /@triplit/react@0.3.18(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-jCQAjT1mGPD11cSBi8ij7WJnLZ1oxQjz9sEgvnHDMHZVRGHmDay3KvfdZ7MRXNN1pweiK6PSV2comTWbiIbWUg==}
     peerDependencies:
       react: '*'
       react-dom: '*'
     dependencies:
-      '@triplit/client': 0.3.17(react@18.2.0)
+      '@triplit/client': 0.3.18(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
 
-  /@triplit/server-core@0.3.17(react@18.2.0):
-    resolution: {integrity: sha512-4ucbs3uOkYouijDanhdvUB6y7yyiAnhhkIaK5IQbDa2KGtMlI+UXufbG5zRn4ZLqp/3A635y4ifqqDmMGUqz/w==}
+  /@triplit/server-core@0.3.18(react@18.2.0):
+    resolution: {integrity: sha512-eNRiSKf8ydL3Qf/4iqO5kPvWqLTncrrCTWFCSiO3IMHnf97IEXSN/ov+lHK8RnMx+9dJvW0Cg22P0btzN3CDmg==}
     dependencies:
-      '@triplit/db': 0.3.14(react@18.2.0)
+      '@triplit/db': 0.3.15(react@18.2.0)
       jose: 4.15.4
     transitivePeerDependencies:
       - react
     dev: true
 
-  /@triplit/server@0.3.17(react@18.2.0):
-    resolution: {integrity: sha512-IA5B7Pj89tVJSIZawkI1z2fT5X7fcKhRtx/x9U2uve5SnBGXEe0ZTFl46iL7EguujEY+sV9qxtzcsUX7tIz0Qw==}
+  /@triplit/server@0.3.18(react@18.2.0):
+    resolution: {integrity: sha512-+Qc7nXv7n2e17wH+al4C4TV+fG3gCmKUAdBTHD1o5OGetKghu3ZkLPPeNb5S+V4eLxrnq0I7eckQP5p8qgEIvA==}
     dependencies:
-      '@triplit/db': 0.3.14(react@18.2.0)
-      '@triplit/server-core': 0.3.17(react@18.2.0)
+      '@triplit/db': 0.3.15(react@18.2.0)
+      '@triplit/server-core': 0.3.18(react@18.2.0)
       better-sqlite3: 8.6.0
       consola: 3.2.3
       cors: 2.8.5
@@ -22520,7 +22520,6 @@ packages:
       chalk: 3.0.0
       diff-match-patch: 1.0.5
     dev: true
-    bundledDependencies: []
 
   /jsonfile@4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
@@ -25936,7 +25935,7 @@ packages:
       bl: 4.1.0
       chalk: 4.1.2
       cli-cursor: 3.1.0
-      cli-spinners: 2.6.1
+      cli-spinners: 2.9.2
       is-interactive: 1.0.0
       is-unicode-supported: 0.1.0
       log-symbols: 4.1.0
