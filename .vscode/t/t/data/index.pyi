@@ -1,0 +1,3 @@
+from ..configrition import *
+def revers(var: str):...
+
