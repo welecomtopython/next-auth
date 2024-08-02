@@ -1,0 +1,28 @@
+{
+  "name": "json_config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "type": "",
+  "language": "",
+  "scripts": {
+    "start": "",
+    "extension": "py"
+  },
+  "author": {
+    "rootdir": "D:\\App.py\\progrmming\\configrition\\json_config",
+    "outdir": "/",
+    "which": false
+  },
+  "configpath": {
+    "path": "",
+    "inside": [
+      "CVJson.py",
+      "main.py",
+      "st_files.py",
+      "__init__.py",
+      "__pycache__"
+    ],
+    "orderdate": "2024-07-26"
+  }
+}
