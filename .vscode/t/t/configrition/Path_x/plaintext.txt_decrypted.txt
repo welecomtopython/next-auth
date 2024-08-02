@@ -1,0 +1,10 @@
+"C:\Users\TREND PC\AppData\Local\Programs\Python\Python311\python.exe" D:\App.py\progrmming\configrition\Path_x\يبيب.py
+Traceback (most recent call last):
+  File "D:\App.py\progrmming\configrition\Path_x\يبيب.py", line 37, in <module>
+    encrypt_file('plaintext.txt', 'yourpassword')
+  File "D:\App.py\progrmming\configrition\Path_x\يبيب.py", line 24, in encrypt_file
+    with open(file_path, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'plaintext.txt'
+
+Process finished with exit code 1
