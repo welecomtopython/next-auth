@@ -1,0 +1,21 @@
+{
+  "folderes":
+  [
+    {
+      "app": [
+        {"add": ["__init__,py"]},
+        {"config": ["__init__,py"]},
+        {"get": ["__init__,py"]},
+        {"init": ["__init__,py"]},
+        {"set": ["__init__,py"]},
+        [
+          "__init__.py",
+          "__init__.pyi",
+          "inidex.py"
+
+        ]
+      ]
+    }
+
+  ]
+}
